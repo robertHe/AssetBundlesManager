@@ -1,0 +1,9 @@
+﻿
+1.在unity编辑器里通过变量SimulateAssetBundleInEditor控制是直接读取文件还是读取assetbundle
+ 注：AssetDatabase.GetAssetPathsFromAssetBundleAndAssetName(assetBundleName, assetName)可以根据assetbundlename和assetname取到资源在assets目录下的路径
+
+
+
+
+1.需要在线更新的资源和需要分级的打成assetbundle
+2.开发时在unity编辑器里直接读取文件
